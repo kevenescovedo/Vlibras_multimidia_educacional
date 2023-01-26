@@ -1,0 +1,28 @@
+.teste{
+    position: fixed;
+    top: 50px;
+    right: 5px;
+    background-image: url("btn-libras.png");
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    border: none;
+}
+.teste:hover{
+ cursor: pointer;
+}
+body{
+    margin: 20px;
+    margin-right: 60px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 425px) {
+    h1{
+        font-size: 15px;
+    }
+}
+[vw] [vw-access-button] .access-button {
+    width: 27%;
+    float: right;
+}
