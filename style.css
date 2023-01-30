@@ -1,28 +1,54 @@
-.teste{
-    position: fixed;
-    top: 50px;
-    right: 5px;
-    background-image: url("btn-libras.png");
-    width: 40px;
-    height: 40px;
-    background-size: cover;
-    border: none;
-}
-.teste:hover{
- cursor: pointer;
-}
-body{
+body {
     margin: 20px;
     margin-right: 60px;
     text-align: justify;
 }
 
 @media screen and (max-width: 425px) {
-    h1{
+    h1 {
         font-size: 15px;
     }
 }
-[vw] [vw-access-button] .access-button {
+
+[TE] {
+    position: fixed;
+    right: 4px;
+    top: 50px;
+}
+
+[TE] [TE-access-button-TE] {
+    width: 140px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0px 0px 0px -100px;
+    max-width: none;
+}
+
+[TE] [TE-access-button-TE] .access-button-TE {
     width: 27%;
     float: right;
+}
+
+
+[TE] [TE-access-button-TE] .access-button-TE:hover+.pop-up-TE {
+    width: 68%;
+}
+
+[TE] [TE-access-button-TE] .pop-up-TE {
+    float: right;
+    width: 0%;
+    margin-right: 6px;
+    -TEbkit-transition: width 2s;
+    /* For Safari 3.1 to 6.0 */
+    transition: width 0.5s;
+}
+
+[TE] [TE-access-button-TE] .pop-up-TE.left {
+    float: left !important;
+    margin-right: 0px;
+}
+
+[TE] [TE-access-button-TE] .access-button-TE.left {
+    float: left !important;
+    margin-right: 6px;
 }
